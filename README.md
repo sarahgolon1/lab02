@@ -1,8 +1,8 @@
 # Lab 02 -- Chapter 01
 
 ## Define the followint terms:
-* object,
-* class,
+* object-an object is something that has state and behavior.  It is an instance of a class.,
+* class-a class is a group of objects that have a like characteristic.  For example, a class could be Animals and some objects in that class would be Cows, Tigers, etc,
 * instance,
 * method,
 * signature,
