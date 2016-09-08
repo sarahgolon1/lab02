@@ -17,21 +17,21 @@
 
 ## What are the types of the following values?
 
-* 0 -int
-* "hello" -string
-* 101 -int
-* -1 -int
+* 0 -int, double, float
+* "hello" -String
+* 101 -int, double, float
+* -1 -int, double, float
 * true -boolean
-* "33" -string
-* 3.1415 -double
+* "33" -String
+* 3.1415 -double, float
 
 ## What would you have to do to add a new field, for example one called name, to a circle object?
 
-You would have to add a parameter to the constructor.
+private String name;
 
 ## Write the header for a method named send that has one parameter of type String, and does not return a value.
 
-public void send(String mag)
+public void send(String var1)
 
 
 ## Write the header for a method named average that has two parameters, both of type int, and returns an int value.
