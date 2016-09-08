@@ -1,17 +1,17 @@
 # Lab 02 -- Chapter 01
 
 ## Define the followint terms:
-* object-an object is something that has state and behavior.  It is an instance of a class.,
-* class-a class is a group of objects that have a like characteristic.  For example, a class could be Animals and some objects in that class would be Cows, Tigers, etc,
-* instance-an instance is a concrete occurrence of an oject.  ,
-* method-a method is a procedure that is associated with an object.  It defines what the object is doing.,
-* signature-a type signature defines the inputs and outputs of a function or a method.,
-* parameter-A parameter is  is a special kind of variable, used in a subroutine to refer to one of the pieces of data provided as input to the subroutine.,
-* type-a type indicates the possible inputs.  For example, if the type is "int", you can only input integers.,
-* state- a state is a technical term for all the stored data,
-* source code-source code is computer instructions written in readable computer language.,
-* return value- this tells a function to return execution of the program to the calling function, and report the value,
-* compiler-The compiler saves the changes made and commits it to the program.
+* object-state or behavior (instance) of a class
+* class-blueprint (code) that defines how to create an object
+* instance-a specific realization of any object,
+* method-a collection of statements, in a class, used to manipulate (mutators) or access (accessors) information from an object of that class (behaves like a function in mathematics),
+* signature-name of the method and type of parameter. I.e. the following signature changes the size of the instance 'box' of class 'Box' and does not give an output: void changeSize(Box box),
+* parameter-an input of a method I.e. 'box' is the parameter in the example above
+* type-defines what values the parameter is allowed to be,
+* state- a set of values describing an object,
+* source code-collection of written commands that compiles to create an executable program.,
+* return value- output of a method,
+* compiler-transforms source code into computer readable language.
 
 ## In Chapter 1 we have mentioned the data types int and String. Java has more predefined data types. Find out what they are and what they are used for. To do this, you can check Appendix B, or look it up in another Java book or in an online Java language manual. One such manual is at [http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html](http://download.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 
